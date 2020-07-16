@@ -35,4 +35,8 @@ public class maopao{
 			System.out.print(element+" ");
 	}
 }
+
+class test{
+	
+}
 		
