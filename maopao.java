@@ -1,7 +1,6 @@
 /*
  * 冒泡算法：n个数排序，比n-1趟，第一趟比n-1次，每趟比较次数逐次减一
  */
-package test;
 import java.util.*;
 
 public class maopao{

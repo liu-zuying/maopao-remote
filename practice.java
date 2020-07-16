@@ -1,7 +1,4 @@
 
-package test;
-
-
  class A
 {
 	
@@ -40,7 +37,7 @@ package test;
 
 public class practice {
 
-	public static void D(A aa)//父类包含子类，父类可以使用子类中继承、重写的方法
+	public static void D(A aa)// 父类包含子类，父类可以使用子类中继承、重写的方法
 	{					    //虽是父类形参但是也可以用子类对象，相当于把子类赋给了父类
 		
 		aa.f();
