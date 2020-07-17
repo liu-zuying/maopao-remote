@@ -35,11 +35,4 @@ public class maopao{
 			System.out.print(element+" ");
 	}
 }
-
-class test{
-	
-}
-class ww{
-	int i;
-}
 		
