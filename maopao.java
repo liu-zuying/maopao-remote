@@ -39,4 +39,7 @@ public class maopao{
 class test{
 	
 }
+class ww{
+	int i;
+}
 		
