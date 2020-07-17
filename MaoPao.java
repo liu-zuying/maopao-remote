@@ -3,7 +3,8 @@
  */
 import java.util.*;
 
-public class maopao{
+
+public class MaoPao{
 	
 	public static void main(String[] args)
 	{
@@ -18,11 +19,14 @@ public class maopao{
 		}
 		in.close();
 		
-		for(int i=0;i<num.length-1;i++)       //控制比较趟数，共length-1趟
-		{
-			for(int j=0;j<num.length-1-i;j++) //控制每趟比较次数，逐次减一
-			{
-				if(num[j]>num[j+1])				//如果右边的数比左边的大，就交换位置，每趟排出一个最大值并移到最右边
+		//控制比较趟数，共length-1趟		
+		for(int i=0;i<num.length-1;i++)      
+		{			
+			//控制每趟比较次数，逐次减一			
+			for(int j=0;j<num.length-1-i;j++) 
+			{				
+				//如果右边的数比左边的大，就交换位置，每趟排出一个最大值并移到最右边				
+				if(num[j]>num[j+1])				
 				{
 					temp=num[j];
 					num[j]=num[j+1];
@@ -31,8 +35,11 @@ public class maopao{
 			}
 		}
 		
-		for(int element:  num)				//for each循环，用于输出数组元素
+		//for each循环，用于输出数组元素		
+		for(int element:  num)				
+		{
 			System.out.print(element+" ");
+		}
 	}
 }
 		
